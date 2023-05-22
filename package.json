@@ -1,0 +1,21 @@
+{
+  "name": "distributed-exchange-simplified",
+  "version": "1.0.0",
+  "description": "",
+  "main": "orderbook.js",
+  "scripts": {
+    "start-orderbook-node1": "cross-env NODE_ENV=node1 nodemon orderbook.js",
+    "start-orderbook-node2": "cross-env NODE_ENV=node2 nodemon orderbook.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "grenache-nodejs-http": "^0.7.13",
+    "grenache-nodejs-link": "^0.7.13",
+    "nodemon": "^2.0.22"
+  }
+}
